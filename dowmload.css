@@ -1,0 +1,262 @@
+/* STULE DOWNLOAD*/
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.download-container {
+    margin: 30px auto;
+    max-width: 500px;
+}
+
+h2 {
+    font-weight: normal;
+    margin-bottom: 14px;
+}
+
+.download-box {
+    background: rgb(242, 243, 245);
+    border-radius: 22px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.download-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.download-title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.download-desc {
+    margin: 7px 0 0 0;
+    color: #888;
+    font-size: 15px;
+}
+
+.bank-logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 16px;
+    object-fit: contain;
+    
+    
+}
+
+.instruction {
+padding-left: 20px;
+    margin: 0;
+    padding: 0;
+
+
+    background: #fff;
+    border-radius: 16px;
+    padding: 16px;
+    margin-top: 16px;
+    font-size: 14px;
+    color: rgba(3, 3, 6, .88);
+}
+
+.red {
+    font-size: 15px;
+    color: #ed232a;
+}
+
+.instruction ol {
+    padding-left: 10px;
+    margin: 0;
+}
+
+.instruction li {
+    margin-bottom: 10px;
+    color: rgba(3, 3, 6, .88);
+}
+
+.instruction li b {
+    color: #222;
+}
+
+.download-btn {
+    width: 100%;
+    background: #ed232a;
+    color: #fff;
+    border: none;
+    border-radius: 14px;
+    padding: 18px 0;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 20px 0 12px 0;
+    transition: background 0.2s;
+}
+
+.download-btn:hover {
+    background: #ba1c1c;
+}
+
+
+
+.background-header2 {
+  background-color: #7a6ad8 !important;
+  border-radius: 0px 0px 25px 25px;
+  height: 80px!important;
+  position: fixed!important;
+  top: 0!important;
+  left: 0;
+  right: 0;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.15)!important;
+  -webkit-transition: all .5s ease 0s;
+  -moz-transition: all .5s ease 0s;
+  -o-transition: all .5s ease 0s;
+  transition: all .5s ease 0s;
+}
+
+.main-img {
+    margin-top: 100px;
+    display: flex;
+    
+    align-items: center; /* выровнять по центру по вертикали */
+    max-width: 330px;         /* ширина блока, чтобы смотрелось красиво */
+   margin-bottom: 40px;
+   justify-content: center; 
+}
+
+.main-img h1 {
+    white-space: nowrap;
+   
+}
+.main-block {
+  max-width: 330px;            /* ограничение ширины */
+  margin: 100px auto 40px auto;/* сверху, справа, снизу, слева — слева и справа auto = центрирование */
+}
+
+
+
+.info-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(242, 243, 245);
+  border-radius: 20px;
+  padding: 20px 24px;
+  margin: 10px 0;
+  box-shadow: none;          /* если нужен тенёк - добавь box-shadow */
+  min-width: 0;              /* для flex-адаптивности */
+}
+
+.info-text {
+  flex: 1;
+  min-width: 0;
+}
+
+
+.info-text strong {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(3,3,6,.88);
+  display: block;
+  margin-bottom: 4px;
+}
+
+.info-sub {
+  color: rgba(3,3,6,.616);
+  font-size: 14px;
+  line-height: 20px;
+  
+}
+
+.info-img {
+  flex-shrink: 0;
+  margin-left: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+.info-img img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  /* margin-top: 2px; // можешь добавить, чтобы иконка была чуть выше */
+}
+
+.info-img2 {
+  flex-shrink: 0;
+  margin-right: 0px;
+  display: flex;
+  justify-content: flex-end; /* ← теперь вся "начинка" справа */
+  align-items: flex-start;
+}
+.info-img2 img {
+  width: 44px;
+  height: 44px;
+  
+  /* margin-top: 2px; // можешь добавить, чтобы иконка была чуть выше */
+}
+
+.main-block2 {
+  max-width: 500px;            /* ограничение ширины */
+  margin: 0px auto 20px auto;/* сверху, справа, снизу, слева — слева и справа auto = центрирование */
+}
+
+@media (max-width: 543px) {
+  .main-block2 {
+  
+  padding-left: 15px;
+padding-right: 15px;
+  }
+}
+
+.info-container {
+      background: #fff;
+      margin: 0 auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 600px;
+      padding: 40px 40px 32px 40px;
+      box-sizing: border-box;
+      border-radius: 2px;
+      min-height: 340px;
+    }
+    .info-title {
+      font-size: 2.3rem;
+      font-weight: 500;
+      margin-bottom: 36px;
+      color: #2d2a26;
+    }
+    .info-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 50px;
+      row-gap: 24px;
+    }
+    .info-label {
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 3px;
+      font-weight: 400;
+    }
+    .info-value {
+      font-size: 20px;
+      color: #232323;
+      font-weight: 400;
+      margin-bottom: 0;
+    }
+    @media (max-width: 650px) {
+      .info-container {
+        width: 100%;
+        padding: 18px;
+      }
+      .info-title {
+        font-size: 1.2rem;
+      }
+      .info-value {
+        font-size: 16px;
+      }
+    }
